@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Crimson+Text&family=Dancing+Script&family=Montserrat&family=Poppins:wght@200;300&family=Roboto+Mono:wght@100&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&family=Poppins:wght@600&display=swap');
+
+
+.hed{
+	font-size: 60px;
+	font-weight: 500;
+	width: 12ch;
+	white-space: nowrap;
+	overflow: hidden;
+	color: blue;
+	border-right: 1px solid black;
+	animation: typing 5s ease 1;
+}
+@keyframes typing {
+	0%{
+		width: 0ch;
+	}
+	50%{
+		width: 13ch;
+	}
+	
+}
+
+
+section{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#navbar b{
+	cursor: pointer;
+}
+#navbar{
+	position: sticky;
+	top: 0;
+	
+	background: white;
+	z-index: 10;
+	padding-left: 50px;
+	padding-right: 30px;
+}
+.bold{
+	font-size: 25px;
+	font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+	
+	
+}
+li{
+	padding: 5px;
+	
+}
+.nav-link{
+	font-size: 15px;
+	font-weight: bold;
+	border: 2px solid transparent;
+}
+.nav-link:hover{
+	border-bottom: 2px solid blue;
+	transition: .1s;
+}
+/*------------Home-----------*/
+
+#home .v{
+	text-align: center;
+}
+
+
+#home h1{
+	cursor: pointer;
+}
+span{
+	color: blue;
+	font-weight: bold;
+	cursor: pointer;
+}
+p{
+	font-size: 18px;
+	text-align: justify;
+	cursor: pointer;
+}
+
+.img{
+	width: 400px;
+	height: 400px;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.15),
+	-6px -6px 10px -1px rgba(255,255,255,0.7);
+	padding: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+
+
+}
+
+.myres{
+	margin-bottom: 30px;
+	text-align: center
+}
+.downbtn{
+	width: 200px;
+	background-color: #0d6efd;
+	padding: 15px 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 25px;
+	color: white;
+	font-weight: 500;
+	transition: 0.5s;
+}
+#project .all{
+	cursor: pointer;
+	
+}
+.downbtn:hover{
+	background-color: black;
+}
+
+.imglin{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.insta{
+	margin-left: 10px;
+}
+/*<----------About---------->*/
+
+#about h2{
+	text-align: center;
+	justify-content: center;
+}
+.college{
+	color: blue;
+	border: blue 2px solid;
+}
+.hrsec,.sec,.pers,.hobs{
+	color: #999;
+	border: #999 2px solid;
+	transition: 0.5s;
+}
+.btned{
+	display: inline-block;
+}
+
+#about button{
+	background-color: white;
+	margin-top: 50px;
+	padding: 5px 20px 5px 20px ;
+	font-weight: 600;
+	border-radius: 30px;
+}
+#about button:hover{
+	color: blue;
+	border: blue 2px solid;
+}
+.con2,.con3,.con4,.con5{
+	display: none;
+	transition: 2s;
+}
+.con1,.con2,.con3,.con4,.con5{
+	background-color: #e0dede;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: justify;
+	
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.btn-groups .al li{
+	text-align: center;
+	list-style: none;
+}
+
+#about a{
+	list-style: none;
+	text-decoration: none;
+}
+
+/*-----services----*/
+.skills{
+	width: 160px;
+	height: 160px;
+	position: relative;
+	margin-top: 50px;
+	
+	
+	
+}
+.outer{
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+	-6px -6px 10px -1px rgba(255,255,255,0.7);
+	padding: 20px;
+}
+.iner{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2), 
+	inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+	-0.5px -0.5px 0px rgba(255,255,255,1),
+	0.5px 0.5px 0px rgba(0,0,0,0.15),
+	0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+#num,#num2,#num3,#num4,#num5,#num6{
+	font-weight: bold;
+	color: #555;
+	position: absolute;
+	margin-top: 30px;
+}
+circle{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 20px;
+	stroke-dasharray: 472;
+	stroke-dashoffset: 472;
+	
+}
+.round1{
+	animation: animnum1 2s linear forwards;
+}
+@keyframes animnum1 {
+	100%{
+		stroke-dashoffset: 55;
+	}
+}
+
+.round2{
+	animation: animnum2 2s linear forwards;
+}
+
+@keyframes animnum2 {
+	100%{
+		stroke-dashoffset: 70.8;
+	}
+}
+.round3{
+	animation: animnum3 2s linear forwards;
+}
+@keyframes animnum3 {
+	100%{
+		stroke-dashoffset: 70.8;
+	}
+}
+.round4{
+	animation: animnum3 2s linear forwards;
+}
+@keyframes animnum4 {
+	100%{
+		stroke-dashoffset: 70.8;
+	}
+}
+.round5{
+	animation: animnum5 2s linear forwards;
+}
+@keyframes animnum5 {
+	100%{
+		stroke-dashoffset: 60;
+	}
+}
+.round6{
+	animation: animnum6 2s linear forwards;
+}
+@keyframes animnum6 {
+	100%{
+		stroke-dashoffset: 70.8;
+	}
+}
+
+#skil svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#skil .co{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: row;
+	
+}
+.c{
+	position: relative;
+	font-weight: 700;
+	margin-bottom: 30px;
+	
+}
+.card{
+	animation-name: flip;
+}
+
+
+.card img{
+	height: 100%;
+	width: 100%;
+	transition: 1s;
+}
+.inner{
+	overflow: hidden;
+}
+.card img:hover{
+	transform: scale(1.5);
+	transition: 1s;
+}
+
+.btn-groups button{
+	background-color: #0d6efd;
+	color: black;
+	font-weight: bold;
+	outline: none;
+	border: 1px black solid;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+.btn-groups button:hover{
+	background-color: black;
+	color: white;
+	transition: 1s;
+	
+}
+.btn-groups .btn1{
+	width: 49%;
+	height: 40px;
+}
+.btn-groups .btn2{
+	width: 49%;
+	height: 40px;
+}
+#project{
+	margin-top: 100px;
+}
+.al{
+	height: 150px;
+	overflow: auto;
+}
+.proj:hover{
+	background-color: cornflowerblue;
+	transform: scale(1.1);
+	transition:1s ease all;
+}
+.al li{
+	list-style: none;
+}
+.proj{
+	height: 460px;
+}
+.al li img{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.btn-groups a{
+	text-decoration: none;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+	
+}
+::-webkit-scrollbar-track{
+	background:white;
+	border-radius: 20px;
+	
+}
+
+::-webkit-scrollbar-thumb{
+	background: black;
+	border-radius: 20px;
+	
+}
+
+
+
+/*-----contact----*/
+form{
+	padding: 40px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2),-1px -1px 5px rgba(0, 0, 0, 0.05);
+	border-radius: 30px;
+}
+@media screen and (min-width:0px)and (max-width:700px) {
+	
+	#err1{
+		margin-top: 0px;
+		width: 300px;
+		height: 300px;
+	}
+	#err{
+		width: 340px;
+		margin-left: 5px;
+		margin-top: 30px;
+		height: auto;
+		
+	}
+	.hed{
+		font-size: 30px;
+	}
+	.mainc{
+		font-size: 17px;
+	}
+	.downbtn{
+		padding: 0px;
+		width: 100px;
+		height: 40px;
+		margin-left: 16px;
+		font-size: 16px;
+	}
+	.btn1{
+		font-size: 13px;
+		
+	}
+	.btn2{
+		font-size: 14px;
+	}
+	#about{
+		margin-top: 60px;
+	}
+}
+
+
+
